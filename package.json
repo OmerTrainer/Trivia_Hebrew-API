@@ -1,0 +1,26 @@
+{
+  "name": "trivia_hebrew-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OmerTrainer/Trivia_Hebrew-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OmerTrainer/Trivia_Hebrew-API/issues"
+  },
+  "homepage": "https://github.com/OmerTrainer/Trivia_Hebrew-API#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
