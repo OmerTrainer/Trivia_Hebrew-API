@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "C:\\Users\\Meamnim-Lab\\Desktop\\Trivia_Hebrew-API\\src\\logs\\error\\.59c2b8732d1330226f0d609f534533804f9323b6-audit.json",
+    "files": [
+        {
+            "date": 1659616180540,
+            "name": "C:\\Users\\Meamnim-Lab\\Desktop\\Trivia_Hebrew-API\\src\\logs\\error\\2022-08-04.log",
+            "hash": "01eba1cd8d37b33938adbf69932341d5a481cfbe9123d73ab6818db878b42bc4"
+        }
+    ],
+    "hashType": "sha256"
+}
