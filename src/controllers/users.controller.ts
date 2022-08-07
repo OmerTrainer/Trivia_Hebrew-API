@@ -19,8 +19,20 @@ class UsersController {
 
   public getUserById = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
     try {
+      
       const userId = Number(req.params.id);
       const findOneUserData: IUser = await this.userService.findUserById(userId);
+
+      res.status(HttpStatusCode.OK).json({ data: findOneUserData, message: 'findOne' });
+    } catch (error) {
+      next(error);
+    }
+  };
+  public getBestUserByTrophies = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
+    try {
+
+      const userId = Number(req.params.id);
+      const findOneUserData: IUser = await this.userService.findBestUserByTrophies(userId);
 
       res.status(HttpStatusCode.OK).json({ data: findOneUserData, message: 'findOne' });
     } catch (error) {

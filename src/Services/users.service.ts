@@ -1,10 +1,11 @@
 import DbGlobals from '../globals/db';
-import { EntityRepository, FindRelationsNotFoundError, getRepository, Repository } from 'typeorm';
+import { EntityRepository, FindRelationsNotFoundError, getRepository, Repository, Not, MoreThanOrEqual, LessThan } from 'typeorm';
 import { CreateUserDto } from '../dtos/users.dto';
 import { Users } from '../entities/users.entity';
 import { HttpException } from '../exceptions/HttpException';
 import { IUser } from '../interfaces/users.interface';
 import { isEmpty } from '../utils/util';
+import { equals } from 'class-validator';
 
 @EntityRepository()
 class UserService {
@@ -20,6 +21,16 @@ class UserService {
 
     const findUser: IUser = await Users.findOne({ where: { id: userId } });
     if (!findUser) throw new HttpException(409, "You're not user");
+
+    return findUser;
+  }
+
+  public async findBestUserByTrophies(userId: number): Promise<IUser> {
+    const userTrophies = (await this.findUserById(userId)).trophies
+    if (isEmpty(userId)) throw new HttpException(400, "You're not userId");
+    const findUser: IUser = await Users.findOne({where:{id : Not(userId)}} )
+
+    if (!userId) throw new HttpException(409, "You're not user");
 
     return findUser;
   }

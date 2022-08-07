@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "C:\\Users\\DESKTOP-TOM\\Desktop\\Trivia_Hebrew-API\\src\\logs\\debug\\.aeb5bcb49977b750aaf77d511864c064f57041e3-audit.json",
+    "files": [
+        {
+            "date": 1659857888699,
+            "name": "C:\\Users\\DESKTOP-TOM\\Desktop\\Trivia_Hebrew-API\\src\\logs\\debug\\2022-08-07.log",
+            "hash": "878cdc86df4510dfead63eef41a42bae495d388cf9e253af8ed2ba66e55997dd"
+        }
+    ],
+    "hashType": "sha256"
+}
