@@ -28,6 +28,9 @@ class UserService {
   public async findBestUserByTrophies(userId: number): Promise<IUser> {
     const userTrophies = (await this.findUserById(userId)).trophies
     if (isEmpty(userId)) throw new HttpException(400, "You're not userId");
+    const findUser: IUser = Users.createQueryBuilder('Users')
+    .innerJoinAndSelect('Users.trophies',' trophies')
+    .orderBy("ABS(trophies - :userTrophies )","ASC",{userTrophies:userTrophies})
     const findUser: IUser = await Users.findOne({where:{id : Not(userId)}} )
 
     if (!userId) throw new HttpException(409, "You're not user");
