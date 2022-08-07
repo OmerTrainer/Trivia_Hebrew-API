@@ -1,0 +1,64 @@
+2022-08-04 15:45:47 error: uncaughtException: (0 , morgan_1.default) is not a function
+TypeError: (0 , morgan_1.default) is not a function
+    at App.initializeMiddlewares (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\src\app.ts:57:24)
+    at new App (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\src\app.ts:30:10)
+    at Object.<anonymous> (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\src\server.ts:11:13)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+2022-08-04 15:45:47 error: uncaughtException: password authentication failed for user "Meamnim-Lab"
+error: password authentication failed for user "Meamnim-Lab"
+    at Parser.parseErrorMessage (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\pg-protocol\src\parser.ts:369:69)
+    at Parser.handlePacket (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\pg-protocol\src\parser.ts:188:21)
+    at Parser.parse (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\pg-protocol\src\parser.ts:103:30)
+    at Socket.<anonymous> (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\pg-protocol\src\index.ts:7:48)
+    at Socket.emit (node:events:390:28)
+    at Socket.emit (node:domain:475:12)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:199:23)
+2022-08-04 15:45:51 error: uncaughtException: (0 , morgan_1.default) is not a function
+TypeError: (0 , morgan_1.default) is not a function
+    at App.initializeMiddlewares (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\src\app.ts:57:24)
+    at new App (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\src\app.ts:30:10)
+    at Object.<anonymous> (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\src\server.ts:11:13)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+2022-08-04 15:45:52 error: uncaughtException: password authentication failed for user "Meamnim-Lab"
+error: password authentication failed for user "Meamnim-Lab"
+    at Parser.parseErrorMessage (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\pg-protocol\src\parser.ts:369:69)
+    at Parser.handlePacket (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\pg-protocol\src\parser.ts:188:21)
+    at Parser.parse (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\pg-protocol\src\parser.ts:103:30)
+    at Socket.<anonymous> (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\pg-protocol\src\index.ts:7:48)
+    at Socket.emit (node:events:390:28)
+    at Socket.emit (node:domain:475:12)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:199:23)
+2022-08-04 15:49:29 error: uncaughtException: password authentication failed for user "Meamnim-Lab"
+error: password authentication failed for user "Meamnim-Lab"
+    at Parser.parseErrorMessage (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\pg-protocol\src\parser.ts:369:69)
+    at Parser.handlePacket (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\pg-protocol\src\parser.ts:188:21)
+    at Parser.parse (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\pg-protocol\src\parser.ts:103:30)
+    at Socket.<anonymous> (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\pg-protocol\src\index.ts:7:48)
+    at Socket.emit (node:events:390:28)
+    at Socket.emit (node:domain:475:12)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:199:23)
+2022-08-04 15:57:13 error: [POST] /users/ >> StatusCode:: 400, Message:: id must be a number conforming to the specified constraints, name must be a string, emailAddress must be an email, userRoleId must be a number conforming to the specified constraints, forceId must be a number conforming to the specified constraints
+2022-08-04 15:57:40 error: [POST] /users/ >> StatusCode:: 400, Message:: You're not userData
+2022-08-04 15:57:41 error: [POST] /users/ >> StatusCode:: 400, Message:: You're not userData
+2022-08-04 16:03:15 error: [POST] /users/ >> StatusCode:: 400, Message:: You're not userData

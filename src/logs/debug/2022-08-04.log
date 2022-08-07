@@ -1,0 +1,31 @@
+2022-08-04 15:49:29 info: =================================
+2022-08-04 15:49:29 info: ======= ENV: development =======
+2022-08-04 15:49:29 info: 🚀 App listening on the port 3000
+2022-08-04 15:49:29 info: =================================
+2022-08-04 15:56:23 info: =================================
+2022-08-04 15:56:23 info: ======= ENV: development =======
+2022-08-04 15:56:23 info: 🚀 App listening on the port 3000
+2022-08-04 15:56:23 info: =================================
+2022-08-04 15:56:49 info: [0mPOST /api/create_client [33m404[0m 3.533 ms - 157[0m
+2022-08-04 15:56:57 info: [0mPOST /users/create_client [33m404[0m 1.113 ms - 159[0m
+2022-08-04 15:57:13 error: [POST] /users/ >> StatusCode:: 400, Message:: id must be a number conforming to the specified constraints, name must be a string, emailAddress must be an email, userRoleId must be a number conforming to the specified constraints, forceId must be a number conforming to the specified constraints
+2022-08-04 15:57:13 info: [0mPOST /users/ [33m400[0m 7.131 ms - 262[0m
+2022-08-04 15:57:36 info: =================================
+2022-08-04 15:57:36 info: ======= ENV: development =======
+2022-08-04 15:57:36 info: 🚀 App listening on the port 3000
+2022-08-04 15:57:36 info: =================================
+2022-08-04 15:57:40 error: [POST] /users/ >> StatusCode:: 400, Message:: You're not userData
+2022-08-04 15:57:40 info: [0mPOST /users/ [33m400[0m 6.420 ms - 33[0m
+2022-08-04 15:57:41 error: [POST] /users/ >> StatusCode:: 400, Message:: You're not userData
+2022-08-04 15:57:41 info: [0mPOST /users/ [33m400[0m 2.151 ms - 33[0m
+2022-08-04 16:03:09 info: =================================
+2022-08-04 16:03:09 info: ======= ENV: development =======
+2022-08-04 16:03:09 info: 🚀 App listening on the port 3000
+2022-08-04 16:03:09 info: =================================
+2022-08-04 16:03:13 info: =================================
+2022-08-04 16:03:13 info: ======= ENV: development =======
+2022-08-04 16:03:13 info: 🚀 App listening on the port 3000
+2022-08-04 16:03:13 info: =================================
+2022-08-04 16:03:15 error: [POST] /users/ >> StatusCode:: 400, Message:: You're not userData
+2022-08-04 16:03:15 info: [0mPOST /users/ [33m400[0m 6.938 ms - 33[0m
+2022-08-04 16:03:22 info: [0mPOST /users/AllUsers [32m200[0m 10.343 ms - 31[0m

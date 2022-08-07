@@ -1,0 +1,20 @@
+{
+  "env": "development",
+  "dbConfig": {
+    "host": "localhost",
+    "user": "postgres",
+    "password": "Aa123456",
+    "database": "star-dev",
+    "logging": false,
+    "ssl": false
+  },
+  "secretKey": "secretKey",
+  "log": {
+    "format": "dev",
+    "dir": "../logs"
+  },
+  "cors": {
+    "origin": true,
+    "credentials": true
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "env": "production",
+  "dbConfig": {
+    "logging": false,
+    "ssl": true
+  },
+  "secretKey": "secretKey",
+  "log": {
+    "format": "combined",
+    "dir": "../logs"
+  },
+  "cors": {
+    "origin": "your.domain.com",
+    "credentials": true
+  }
+}
