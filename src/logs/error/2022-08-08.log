@@ -1,0 +1,405 @@
+2022-08-08 11:33:50 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/users.service.ts[0m:[93m27[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m27[0m   public async findBestUserByTrophies(userId: number): Promise<IUser> {
+[7m  [0m [91m  ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/users.service.ts[0m:[93m27[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m27[0m   public async findBestUserByTrophies(userId: number): Promise<IUser> {
+[7m  [0m [91m  ~~~~~~[0m
+
+    at createTSError (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\ts-node\src\index.ts:863:19)
+    at C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2022-08-08 11:34:35 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/users.service.ts[0m:[93m27[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m27[0m   public async findBestUserByTrophies(userId: number): Promise<IUser> {
+[7m  [0m [91m  ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/users.service.ts[0m:[93m27[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m27[0m   public async findBestUserByTrophies(userId: number): Promise<IUser> {
+[7m  [0m [91m  ~~~~~~[0m
+
+    at createTSError (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\ts-node\src\index.ts:863:19)
+    at C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2022-08-08 11:55:05 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/users.service.ts[0m:[93m27[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m27[0m   public async findBestUserByTrophies(userId: number): Promise<IUser> {
+[7m  [0m [91m  ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/users.service.ts[0m:[93m27[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m27[0m   public async findBestUserByTrophies(userId: number): Promise<IUser> {
+[7m  [0m [91m  ~~~~~~[0m
+
+    at createTSError (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\ts-node\src\index.ts:863:19)
+    at C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2022-08-08 13:11:08 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/users.service.ts[0m:[93m27[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m27[0m   public async findBestUserByTrophies(userId: number): Promise<IUser> {
+[7m  [0m [91m  ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/users.service.ts[0m:[93m27[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m27[0m   public async findBestUserByTrophies(userId: number): Promise<IUser> {
+[7m  [0m [91m  ~~~~~~[0m
+
+    at createTSError (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\ts-node\src\index.ts:863:19)
+    at C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2022-08-08 13:13:10 error: uncaughtException: password authentication failed for user "postgres"
+error: password authentication failed for user "postgres"
+    at Parser.parseErrorMessage (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\pg-protocol\src\parser.ts:369:69)
+    at Parser.handlePacket (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\pg-protocol\src\parser.ts:188:21)
+    at Parser.parse (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\pg-protocol\src\parser.ts:103:30)
+    at Socket.<anonymous> (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\pg-protocol\src\index.ts:7:48)
+    at Socket.emit (node:events:390:28)
+    at Socket.emit (node:domain:475:12)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:199:23)
+2022-08-08 13:13:37 error: uncaughtException: database "Trivia_hebrew" does not exist
+error: database "Trivia_hebrew" does not exist
+    at Parser.parseErrorMessage (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\pg-protocol\src\parser.ts:369:69)
+    at Parser.handlePacket (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\pg-protocol\src\parser.ts:188:21)
+    at Parser.parse (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\pg-protocol\src\parser.ts:103:30)
+    at Socket.<anonymous> (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\pg-protocol\src\index.ts:7:48)
+    at Socket.emit (node:events:390:28)
+    at Socket.emit (node:domain:475:12)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:199:23)
+2022-08-08 13:15:00 error: [GET] /users/best-match/2 >> StatusCode:: 409, Message:: You're not user
+2022-08-08 13:15:02 error: [GET] /users/best-match/1 >> StatusCode:: 409, Message:: You're not user
+2022-08-08 13:15:03 error: [GET] /users/best-match/3 >> StatusCode:: 409, Message:: You're not user
+2022-08-08 13:15:04 error: [GET] /users/best-match/4 >> StatusCode:: 409, Message:: You're not user
+2022-08-08 13:15:04 error: [GET] /users/best-match/2 >> StatusCode:: 409, Message:: You're not user
+2022-08-08 13:15:05 error: [GET] /users/best-match/1 >> StatusCode:: 409, Message:: You're not user
+2022-08-08 13:16:53 error: [GET] /users/best-match/1 >> StatusCode:: 500, Message:: Relation with property path trophies in entity was not found.
+2022-08-08 13:16:56 error: [GET] /users/best-match/2 >> StatusCode:: 500, Message:: Relation with property path trophies in entity was not found.
+2022-08-08 13:16:59 error: [GET] /users/best-match/3 >> StatusCode:: 500, Message:: Relation with property path trophies in entity was not found.
+2022-08-08 13:17:10 error: [GET] /users/best-match/4 >> StatusCode:: 500, Message:: Relation with property path trophies in entity was not found.
+2022-08-08 13:19:02 error: [GET] /users/best-match/4 >> StatusCode:: 500, Message:: Relation with property path trophies in entity was not found.
+2022-08-08 13:19:03 error: [GET] /users/best-match/4 >> StatusCode:: 500, Message:: Relation with property path trophies in entity was not found.
+2022-08-08 13:19:20 error: [GET] /users/best-match/4 >> StatusCode:: 500, Message:: DataSource is not set for this entity.
+2022-08-08 13:19:21 error: [GET] /users/best-match/4 >> StatusCode:: 500, Message:: Relation with property path trophies in entity was not found.
+2022-08-08 13:19:22 error: [GET] /users/best-match/4 >> StatusCode:: 500, Message:: Relation with property path trophies in entity was not found.
+2022-08-08 13:19:22 error: [GET] /users/best-match/4 >> StatusCode:: 500, Message:: Relation with property path trophies in entity was not found.
+2022-08-08 13:19:23 error: [GET] /users/best-match/4 >> StatusCode:: 500, Message:: Relation with property path trophies in entity was not found.
+2022-08-08 13:19:32 error: [GET] /users/best-match/4 >> StatusCode:: 500, Message:: Relation with property path trophies in entity was not found.
+2022-08-08 13:19:33 error: [GET] /users/best-match/4 >> StatusCode:: 500, Message:: Relation with property path trophies in entity was not found.
+2022-08-08 13:19:34 error: [GET] /users/best-match/4 >> StatusCode:: 500, Message:: Relation with property path trophies in entity was not found.
+2022-08-08 13:19:34 error: [GET] /users/best-match/4 >> StatusCode:: 500, Message:: Relation with property path trophies in entity was not found.
+2022-08-08 13:20:37 error: [GET] /users/best-match/4 >> StatusCode:: 500, Message:: Relation with property path trophies in entity was not found.
+2022-08-08 13:20:47 error: [GET] /users/best-match/4 >> StatusCode:: 500, Message:: Relation with property path trophies in entity was not found.
+2022-08-08 13:20:49 error: [GET] /users/best-match/4 >> StatusCode:: 500, Message:: Relation with property path trophies in entity was not found.
+2022-08-08 13:21:32 error: [GET] /users/best-match/4 >> StatusCode:: 500, Message:: Relation with property path trophies in entity was not found.
+2022-08-08 13:21:32 error: [GET] /users/best-match/4 >> StatusCode:: 500, Message:: Relation with property path trophies in entity was not found.
+2022-08-08 13:21:39 error: [GET] /users/best-match/4 >> StatusCode:: 500, Message:: Relation with property path trophies in entity was not found.
+2022-08-08 13:21:47 error: [GET] /users/best-match/4 >> StatusCode:: 500, Message:: Relation with property path trophies in entity was not found.
+2022-08-08 13:21:48 error: [GET] /users/best-match/4 >> StatusCode:: 500, Message:: Relation with property path trophies in entity was not found.
+2022-08-08 13:21:48 error: [GET] /users/best-match/4 >> StatusCode:: 500, Message:: Relation with property path trophies in entity was not found.
+2022-08-08 13:26:30 error: [GET] /users/best-match/4 >> StatusCode:: 500, Message:: Relation with property path trophies in entity was not found.
+2022-08-08 13:26:31 error: [GET] /users/best-match/4 >> StatusCode:: 500, Message:: Relation with property path trophies in entity was not found.
+2022-08-08 13:27:12 error: [GET] /users/best-match/4 >> StatusCode:: 500, Message:: Relation with property path trophies in entity was not found.
+2022-08-08 13:27:12 error: [GET] /users/best-match/4 >> StatusCode:: 500, Message:: Relation with property path trophies in entity was not found.
+2022-08-08 13:28:36 error: [GET] /users/best-match/4 >> StatusCode:: 500, Message:: Relation with property path trophies in entity was not found.
+2022-08-08 13:29:48 error: [GET] /users/best-match/4 >> StatusCode:: 500, Message:: Relation with property path trophies in entity was not found.
+2022-08-08 13:29:52 error: [GET] /users/best-match/4 >> StatusCode:: 500, Message:: Relation with property path trophies in entity was not found.
+2022-08-08 13:29:53 error: [GET] /users/best-match/4 >> StatusCode:: 500, Message:: Relation with property path trophies in entity was not found.
+2022-08-08 13:29:56 error: [GET] /users/best-match/4 >> StatusCode:: 500, Message:: Relation with property path trophies in entity was not found.
+2022-08-08 13:30:20 error: [GET] /users/best-match/4 >> StatusCode:: 500, Message:: Relation with property path trophies in entity was not found.
+2022-08-08 13:30:23 error: [GET] /users/best-match/4 >> StatusCode:: 500, Message:: Relation with property path trophies in entity was not found.
+2022-08-08 13:30:49 error: [GET] /users/best-match/4 >> StatusCode:: 500, Message:: Relation with property path trophies in entity was not found.
+2022-08-08 13:30:49 error: [GET] /users/best-match/4 >> StatusCode:: 500, Message:: Relation with property path trophies in entity was not found.
+2022-08-08 13:30:50 error: [GET] /users/best-match/4 >> StatusCode:: 500, Message:: Relation with property path trophies in entity was not found.
+2022-08-08 13:33:14 error: [GET] /users/best-match/4 >> StatusCode:: 500, Message:: Relation with property path trophies in entity was not found.
+2022-08-08 13:35:26 error: [GET] /users/best-match/4 >> StatusCode:: 500, Message:: Relation with property path trophies in entity was not found.
+2022-08-08 13:36:44 error: [GET] /users/best-match/4 >> StatusCode:: 500, Message:: Relation with property path trophies in entity was not found.
+2022-08-08 13:36:45 error: [GET] /users/best-match/4 >> StatusCode:: 500, Message:: Relation with property path trophies in entity was not found.
+2022-08-08 13:36:46 error: [GET] /users/best-match/4 >> StatusCode:: 500, Message:: Relation with property path trophies in entity was not found.
+2022-08-08 13:36:47 error: [GET] /users/best-match/4 >> StatusCode:: 500, Message:: Relation with property path trophies in entity was not found.
+2022-08-08 13:36:47 error: [GET] /users/best-match/4 >> StatusCode:: 500, Message:: Relation with property path trophies in entity was not found.
+2022-08-08 13:36:48 error: [GET] /users/best-match/4 >> StatusCode:: 500, Message:: Relation with property path trophies in entity was not found.
+2022-08-08 13:36:49 error: [GET] /users/best-match/4 >> StatusCode:: 500, Message:: Relation with property path trophies in entity was not found.
+2022-08-08 13:36:54 error: [GET] /users/best-match/4 >> StatusCode:: 500, Message:: Relation with property path trophies in entity was not found.
+2022-08-08 13:36:55 error: [GET] /users/best-match/4 >> StatusCode:: 500, Message:: Relation with property path trophies in entity was not found.
+2022-08-08 13:37:31 error: [GET] /users/best-match/45 >> StatusCode:: 409, Message:: You're not user
+2022-08-08 13:38:35 error: [GET] /users/best-match/4 >> StatusCode:: 500, Message:: syntax error at or near ":"
+2022-08-08 14:04:47 error: [GET] /users/best-match/4 >> StatusCode:: 500, Message:: syntax error at or near "ASC"
+2022-08-08 14:04:50 error: [GET] /users/best-match/1 >> StatusCode:: 500, Message:: syntax error at or near "ASC"
+2022-08-08 14:04:52 error: [GET] /users/best-match/2 >> StatusCode:: 500, Message:: syntax error at or near "ASC"
+2022-08-08 14:04:53 error: [GET] /users/best-match/3 >> StatusCode:: 500, Message:: syntax error at or near "ASC"
+2022-08-08 14:05:13 error: [GET] /users/best-match/5 >> StatusCode:: 409, Message:: You're not user
+2022-08-08 14:05:14 error: [GET] /users/best-match/52 >> StatusCode:: 409, Message:: You're not user
+2022-08-08 14:05:14 error: [GET] /users/best-match/53 >> StatusCode:: 409, Message:: You're not user
+2022-08-08 14:22:27 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/users.service.ts[0m:[93m29[0m:[93m5[0m - [91merror[0m[90m TS1435: [0mUnknown keyword or identifier. Did you mean 'const'?
+
+[7m29[0m     cosnt u = Math.abs(41- userTrophies)
+[7m  [0m [91m    ~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/users.service.ts[0m:[93m29[0m:[93m5[0m - [91merror[0m[90m TS1435: [0mUnknown keyword or identifier. Did you mean 'const'?
+
+[7m29[0m     cosnt u = Math.abs(41- userTrophies)
+[7m  [0m [91m    ~~~~~[0m
+
+    at createTSError (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\ts-node\src\index.ts:863:19)
+    at C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2022-08-08 14:25:58 error: [GET] /users/best-match/3 >> StatusCode:: 500, Message:: DataSource is not set for this entity.
+2022-08-08 14:33:54 error: [GET] /users/best-match/2 >> StatusCode:: 500, Message:: schema "math" does not exist
+2022-08-08 14:33:55 error: [GET] /users/best-match/2 >> StatusCode:: 500, Message:: schema "math" does not exist
+2022-08-08 14:37:28 error: [GET] /users/best-match/2 >> StatusCode:: 500, Message:: invalid reference to FROM-clause entry for table "users"
+2022-08-08 14:37:29 error: [GET] /users/best-match/2 >> StatusCode:: 500, Message:: invalid reference to FROM-clause entry for table "users"
+2022-08-08 14:54:56 error: uncaughtException: column "Ready" of relation "users" contains null values
+QueryFailedError: column "Ready" of relation "users" contains null values
+    at PostgresQueryRunner.query (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\typeorm\src\driver\postgres\PostgresQueryRunner.ts:299:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async PostgresQueryRunner.executeQueries (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\query-runner\BaseQueryRunner.ts:650:13)
+    at async PostgresQueryRunner.addColumn (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\typeorm\src\driver\postgres\PostgresQueryRunner.ts:1110:9)
+    at async PostgresQueryRunner.addColumns (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\typeorm\src\driver\postgres\PostgresQueryRunner.ts:1124:13)
+    at async RdbmsSchemaBuilder.addNewColumns (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\schema-builder\RdbmsSchemaBuilder.ts:743:13)
+    at async RdbmsSchemaBuilder.executeSchemaSyncOperationsInProperOrder (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\schema-builder\RdbmsSchemaBuilder.ts:219:9)
+    at async RdbmsSchemaBuilder.build (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\schema-builder\RdbmsSchemaBuilder.ts:91:13)
+    at async DataSource.synchronize (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\data-source\DataSource.ts:318:9)
+    at async DataSource.initialize (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\data-source\DataSource.ts:256:43)
+2022-08-08 14:55:35 error: uncaughtException: column "Ready" of relation "users" contains null values
+QueryFailedError: column "Ready" of relation "users" contains null values
+    at PostgresQueryRunner.query (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\typeorm\src\driver\postgres\PostgresQueryRunner.ts:299:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async PostgresQueryRunner.executeQueries (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\query-runner\BaseQueryRunner.ts:650:13)
+    at async PostgresQueryRunner.addColumn (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\typeorm\src\driver\postgres\PostgresQueryRunner.ts:1110:9)
+    at async PostgresQueryRunner.addColumns (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\typeorm\src\driver\postgres\PostgresQueryRunner.ts:1124:13)
+    at async RdbmsSchemaBuilder.addNewColumns (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\schema-builder\RdbmsSchemaBuilder.ts:743:13)
+    at async RdbmsSchemaBuilder.executeSchemaSyncOperationsInProperOrder (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\schema-builder\RdbmsSchemaBuilder.ts:219:9)
+    at async RdbmsSchemaBuilder.build (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\schema-builder\RdbmsSchemaBuilder.ts:91:13)
+    at async DataSource.synchronize (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\data-source\DataSource.ts:318:9)
+    at async DataSource.initialize (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\data-source\DataSource.ts:256:43)
+2022-08-08 14:56:03 error: uncaughtException: column "Ready" of relation "users" contains null values
+QueryFailedError: column "Ready" of relation "users" contains null values
+    at PostgresQueryRunner.query (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\typeorm\src\driver\postgres\PostgresQueryRunner.ts:299:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async PostgresQueryRunner.executeQueries (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\query-runner\BaseQueryRunner.ts:650:13)
+    at async PostgresQueryRunner.addColumn (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\typeorm\src\driver\postgres\PostgresQueryRunner.ts:1110:9)
+    at async PostgresQueryRunner.addColumns (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\typeorm\src\driver\postgres\PostgresQueryRunner.ts:1124:13)
+    at async RdbmsSchemaBuilder.addNewColumns (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\schema-builder\RdbmsSchemaBuilder.ts:743:13)
+    at async RdbmsSchemaBuilder.executeSchemaSyncOperationsInProperOrder (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\schema-builder\RdbmsSchemaBuilder.ts:219:9)
+    at async RdbmsSchemaBuilder.build (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\schema-builder\RdbmsSchemaBuilder.ts:91:13)
+    at async DataSource.synchronize (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\data-source\DataSource.ts:318:9)
+    at async DataSource.initialize (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\data-source\DataSource.ts:256:43)
+2022-08-08 14:56:10 error: uncaughtException: column "Ready" of relation "users" contains null values
+QueryFailedError: column "Ready" of relation "users" contains null values
+    at PostgresQueryRunner.query (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\typeorm\src\driver\postgres\PostgresQueryRunner.ts:299:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async PostgresQueryRunner.executeQueries (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\query-runner\BaseQueryRunner.ts:650:13)
+    at async PostgresQueryRunner.addColumn (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\typeorm\src\driver\postgres\PostgresQueryRunner.ts:1110:9)
+    at async PostgresQueryRunner.addColumns (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\typeorm\src\driver\postgres\PostgresQueryRunner.ts:1124:13)
+    at async RdbmsSchemaBuilder.addNewColumns (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\schema-builder\RdbmsSchemaBuilder.ts:743:13)
+    at async RdbmsSchemaBuilder.executeSchemaSyncOperationsInProperOrder (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\schema-builder\RdbmsSchemaBuilder.ts:219:9)
+    at async RdbmsSchemaBuilder.build (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\schema-builder\RdbmsSchemaBuilder.ts:91:13)
+    at async DataSource.synchronize (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\data-source\DataSource.ts:318:9)
+    at async DataSource.initialize (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\data-source\DataSource.ts:256:43)
+2022-08-08 14:56:17 error: uncaughtException: column "Ready" of relation "users" contains null values
+QueryFailedError: column "Ready" of relation "users" contains null values
+    at PostgresQueryRunner.query (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\typeorm\src\driver\postgres\PostgresQueryRunner.ts:299:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async PostgresQueryRunner.executeQueries (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\query-runner\BaseQueryRunner.ts:650:13)
+    at async PostgresQueryRunner.addColumn (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\typeorm\src\driver\postgres\PostgresQueryRunner.ts:1110:9)
+    at async PostgresQueryRunner.addColumns (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\typeorm\src\driver\postgres\PostgresQueryRunner.ts:1124:13)
+    at async RdbmsSchemaBuilder.addNewColumns (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\schema-builder\RdbmsSchemaBuilder.ts:743:13)
+    at async RdbmsSchemaBuilder.executeSchemaSyncOperationsInProperOrder (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\schema-builder\RdbmsSchemaBuilder.ts:219:9)
+    at async RdbmsSchemaBuilder.build (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\schema-builder\RdbmsSchemaBuilder.ts:91:13)
+    at async DataSource.synchronize (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\data-source\DataSource.ts:318:9)
+    at async DataSource.initialize (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\data-source\DataSource.ts:256:43)
+2022-08-08 14:57:12 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/users.service.ts[0m:[93m32[0m:[93m36[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m32[0m     .andWhere({'Users.Ready = True'})
+[7m  [0m [91m                                   ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/users.service.ts[0m:[93m32[0m:[93m36[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m32[0m     .andWhere({'Users.Ready = True'})
+[7m  [0m [91m                                   ~[0m
+
+    at createTSError (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\ts-node\src\index.ts:863:19)
+    at C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2022-08-08 14:57:51 error: uncaughtException: column "Ready" of relation "users" contains null values
+QueryFailedError: column "Ready" of relation "users" contains null values
+    at PostgresQueryRunner.query (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\typeorm\src\driver\postgres\PostgresQueryRunner.ts:299:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async PostgresQueryRunner.executeQueries (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\query-runner\BaseQueryRunner.ts:650:13)
+    at async PostgresQueryRunner.addColumn (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\typeorm\src\driver\postgres\PostgresQueryRunner.ts:1110:9)
+    at async PostgresQueryRunner.addColumns (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\typeorm\src\driver\postgres\PostgresQueryRunner.ts:1124:13)
+    at async RdbmsSchemaBuilder.addNewColumns (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\schema-builder\RdbmsSchemaBuilder.ts:743:13)
+    at async RdbmsSchemaBuilder.executeSchemaSyncOperationsInProperOrder (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\schema-builder\RdbmsSchemaBuilder.ts:219:9)
+    at async RdbmsSchemaBuilder.build (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\schema-builder\RdbmsSchemaBuilder.ts:91:13)
+    at async DataSource.synchronize (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\data-source\DataSource.ts:318:9)
+    at async DataSource.initialize (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\data-source\DataSource.ts:256:43)
+2022-08-08 14:57:55 error: uncaughtException: column "Ready" of relation "users" contains null values
+QueryFailedError: column "Ready" of relation "users" contains null values
+    at PostgresQueryRunner.query (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\typeorm\src\driver\postgres\PostgresQueryRunner.ts:299:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async PostgresQueryRunner.executeQueries (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\query-runner\BaseQueryRunner.ts:650:13)
+    at async PostgresQueryRunner.addColumn (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\typeorm\src\driver\postgres\PostgresQueryRunner.ts:1110:9)
+    at async PostgresQueryRunner.addColumns (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\typeorm\src\driver\postgres\PostgresQueryRunner.ts:1124:13)
+    at async RdbmsSchemaBuilder.addNewColumns (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\schema-builder\RdbmsSchemaBuilder.ts:743:13)
+    at async RdbmsSchemaBuilder.executeSchemaSyncOperationsInProperOrder (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\schema-builder\RdbmsSchemaBuilder.ts:219:9)
+    at async RdbmsSchemaBuilder.build (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\schema-builder\RdbmsSchemaBuilder.ts:91:13)
+    at async DataSource.synchronize (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\data-source\DataSource.ts:318:9)
+    at async DataSource.initialize (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\data-source\DataSource.ts:256:43)
+2022-08-08 14:59:36 error: uncaughtException: column "Ready" of relation "users" contains null values
+QueryFailedError: column "Ready" of relation "users" contains null values
+    at PostgresQueryRunner.query (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\typeorm\src\driver\postgres\PostgresQueryRunner.ts:299:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async PostgresQueryRunner.executeQueries (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\query-runner\BaseQueryRunner.ts:650:13)
+    at async PostgresQueryRunner.addColumn (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\typeorm\src\driver\postgres\PostgresQueryRunner.ts:1110:9)
+    at async PostgresQueryRunner.addColumns (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\typeorm\src\driver\postgres\PostgresQueryRunner.ts:1124:13)
+    at async RdbmsSchemaBuilder.addNewColumns (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\schema-builder\RdbmsSchemaBuilder.ts:743:13)
+    at async RdbmsSchemaBuilder.executeSchemaSyncOperationsInProperOrder (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\schema-builder\RdbmsSchemaBuilder.ts:219:9)
+    at async RdbmsSchemaBuilder.build (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\schema-builder\RdbmsSchemaBuilder.ts:91:13)
+    at async DataSource.synchronize (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\data-source\DataSource.ts:318:9)
+    at async DataSource.initialize (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\data-source\DataSource.ts:256:43)
+2022-08-08 15:00:43 error: uncaughtException: column "Ready" of relation "users" contains null values
+QueryFailedError: column "Ready" of relation "users" contains null values
+    at PostgresQueryRunner.query (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\typeorm\src\driver\postgres\PostgresQueryRunner.ts:299:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async PostgresQueryRunner.executeQueries (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\query-runner\BaseQueryRunner.ts:650:13)
+    at async PostgresQueryRunner.addColumn (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\typeorm\src\driver\postgres\PostgresQueryRunner.ts:1110:9)
+    at async PostgresQueryRunner.addColumns (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\typeorm\src\driver\postgres\PostgresQueryRunner.ts:1124:13)
+    at async RdbmsSchemaBuilder.addNewColumns (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\schema-builder\RdbmsSchemaBuilder.ts:743:13)
+    at async RdbmsSchemaBuilder.executeSchemaSyncOperationsInProperOrder (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\schema-builder\RdbmsSchemaBuilder.ts:219:9)
+    at async RdbmsSchemaBuilder.build (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\schema-builder\RdbmsSchemaBuilder.ts:91:13)
+    at async DataSource.synchronize (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\data-source\DataSource.ts:318:9)
+    at async DataSource.initialize (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\data-source\DataSource.ts:256:43)
+2022-08-08 15:01:05 error: uncaughtException: column "Ready" of relation "users" contains null values
+QueryFailedError: column "Ready" of relation "users" contains null values
+    at PostgresQueryRunner.query (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\typeorm\src\driver\postgres\PostgresQueryRunner.ts:299:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async PostgresQueryRunner.executeQueries (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\query-runner\BaseQueryRunner.ts:650:13)
+    at async PostgresQueryRunner.addColumn (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\typeorm\src\driver\postgres\PostgresQueryRunner.ts:1110:9)
+    at async PostgresQueryRunner.addColumns (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\typeorm\src\driver\postgres\PostgresQueryRunner.ts:1124:13)
+    at async RdbmsSchemaBuilder.addNewColumns (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\schema-builder\RdbmsSchemaBuilder.ts:743:13)
+    at async RdbmsSchemaBuilder.executeSchemaSyncOperationsInProperOrder (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\schema-builder\RdbmsSchemaBuilder.ts:219:9)
+    at async RdbmsSchemaBuilder.build (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\schema-builder\RdbmsSchemaBuilder.ts:91:13)
+    at async DataSource.synchronize (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\data-source\DataSource.ts:318:9)
+    at async DataSource.initialize (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\data-source\DataSource.ts:256:43)
+2022-08-08 15:22:28 error: uncaughtException: column "Ready" of relation "users" contains null values
+QueryFailedError: column "Ready" of relation "users" contains null values
+    at PostgresQueryRunner.query (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\typeorm\src\driver\postgres\PostgresQueryRunner.ts:299:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async PostgresQueryRunner.executeQueries (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\query-runner\BaseQueryRunner.ts:650:13)
+    at async PostgresQueryRunner.addColumn (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\typeorm\src\driver\postgres\PostgresQueryRunner.ts:1110:9)
+    at async PostgresQueryRunner.addColumns (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\typeorm\src\driver\postgres\PostgresQueryRunner.ts:1124:13)
+    at async RdbmsSchemaBuilder.addNewColumns (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\schema-builder\RdbmsSchemaBuilder.ts:743:13)
+    at async RdbmsSchemaBuilder.executeSchemaSyncOperationsInProperOrder (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\schema-builder\RdbmsSchemaBuilder.ts:219:9)
+    at async RdbmsSchemaBuilder.build (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\schema-builder\RdbmsSchemaBuilder.ts:91:13)
+    at async DataSource.synchronize (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\data-source\DataSource.ts:318:9)
+    at async DataSource.initialize (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\data-source\DataSource.ts:256:43)
+2022-08-08 15:22:37 error: uncaughtException: column "Ready" of relation "users" contains null values
+QueryFailedError: column "Ready" of relation "users" contains null values
+    at PostgresQueryRunner.query (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\typeorm\src\driver\postgres\PostgresQueryRunner.ts:299:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async PostgresQueryRunner.executeQueries (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\query-runner\BaseQueryRunner.ts:650:13)
+    at async PostgresQueryRunner.addColumn (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\typeorm\src\driver\postgres\PostgresQueryRunner.ts:1110:9)
+    at async PostgresQueryRunner.addColumns (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\typeorm\src\driver\postgres\PostgresQueryRunner.ts:1124:13)
+    at async RdbmsSchemaBuilder.addNewColumns (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\schema-builder\RdbmsSchemaBuilder.ts:743:13)
+    at async RdbmsSchemaBuilder.executeSchemaSyncOperationsInProperOrder (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\schema-builder\RdbmsSchemaBuilder.ts:219:9)
+    at async RdbmsSchemaBuilder.build (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\schema-builder\RdbmsSchemaBuilder.ts:91:13)
+    at async DataSource.synchronize (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\data-source\DataSource.ts:318:9)
+    at async DataSource.initialize (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\data-source\DataSource.ts:256:43)
+2022-08-08 15:22:51 error: uncaughtException: column "Ready" of relation "users" contains null values
+QueryFailedError: column "Ready" of relation "users" contains null values
+    at PostgresQueryRunner.query (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\typeorm\src\driver\postgres\PostgresQueryRunner.ts:299:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async PostgresQueryRunner.executeQueries (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\query-runner\BaseQueryRunner.ts:650:13)
+    at async PostgresQueryRunner.addColumn (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\typeorm\src\driver\postgres\PostgresQueryRunner.ts:1110:9)
+    at async PostgresQueryRunner.addColumns (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\typeorm\src\driver\postgres\PostgresQueryRunner.ts:1124:13)
+    at async RdbmsSchemaBuilder.addNewColumns (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\schema-builder\RdbmsSchemaBuilder.ts:743:13)
+    at async RdbmsSchemaBuilder.executeSchemaSyncOperationsInProperOrder (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\schema-builder\RdbmsSchemaBuilder.ts:219:9)
+    at async RdbmsSchemaBuilder.build (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\schema-builder\RdbmsSchemaBuilder.ts:91:13)
+    at async DataSource.synchronize (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\data-source\DataSource.ts:318:9)
+    at async DataSource.initialize (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\src\data-source\DataSource.ts:256:43)
+2022-08-08 16:16:44 error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\express\lib\application.js:635:24)
+    at App.listen (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\src\app.ts:37:14)
+    at Object.<anonymous> (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\src\server.ts:18:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\ts-node\src\index.ts:1621:12)
+2022-08-08 16:18:44 error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\express\lib\application.js:635:24)
+    at App.listen (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\src\app.ts:37:14)
+    at Object.<anonymous> (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\src\server.ts:18:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Meamnim-Lab\Desktop\Trivia_Hebrew-API\node_modules\ts-node\src\index.ts:1621:12)

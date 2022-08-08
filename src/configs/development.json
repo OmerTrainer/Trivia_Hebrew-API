@@ -4,8 +4,8 @@
         "host": "localhost",
         "user": "postgres",
         "port": 5432,
-        "password": "0585284770",
-        "database": "Trivia_hebrew",
+        "password": "Aa123456",
+        "database": "Trivia_Hebrew",
         "logging": false,
         "ssl": false
     },

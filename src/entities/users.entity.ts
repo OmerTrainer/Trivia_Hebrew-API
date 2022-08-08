@@ -2,6 +2,7 @@ import { IsNotEmpty } from 'class-validator';
 import { IUser } from '../interfaces/users.interface';
 
 import {
+  CreateDateColumn,
   BaseEntity,
   Entity,
   PrimaryGeneratedColumn,
@@ -25,4 +26,14 @@ export class Users extends BaseEntity implements IUser {
 
   @Column()
   lives: number;
+      
+
+  @CreateDateColumn()
+  last_sign_in: Date;
+
+  @CreateDateColumn()
+  first_sign_in: Date;
+
+
+  
 }

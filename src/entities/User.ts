@@ -15,8 +15,10 @@ export class User extends BaseEntity{
     @Column({
         type:"numeric"
     })
+
     trophies: number;
 
+    
     @CreateDateColumn()
     last_sign_in: Date;
 
