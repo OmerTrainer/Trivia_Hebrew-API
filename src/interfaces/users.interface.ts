@@ -9,3 +9,4 @@ export interface IUser {
   first_sign_in: Date;
   lives: number;
 }
+ 

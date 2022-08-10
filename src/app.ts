@@ -15,7 +15,8 @@ import errorMiddleware from './middlewares/error.middleware';
 import { logger, stream } from './utils/logger';
 import * as express from 'express';
 import * as config from 'config';
-
+import './mock/generate_mock_data'
+import { insertMockData } from './mock/generate_mock_data';
 class App {
   public app: express.Application;
   public port: string | number;
@@ -49,7 +50,7 @@ class App {
   private connectToDatabase() {
     createConnection(dbConnection).then(async () => {
     //   // await insertInitProdData();
-    //   // await insertMockData();
+     await insertMockData();
     });
   }
 
