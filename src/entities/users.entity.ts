@@ -20,6 +20,8 @@ export class Users extends BaseEntity implements IUser {
   @Column()
   f_id:string;
   @Column()
+  email:string;
+  @Column()
   
   @IsNotEmpty()
   name: string;
