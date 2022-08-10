@@ -14,7 +14,6 @@ import { HttpException } from "../exceptions/HttpException";
 import { IUser } from "../interfaces/users.interface";
 import { isEmpty } from "../utils/util";
 import { equals } from "class-validator";
-import { User } from "../entities/User";
 
 @EntityRepository()
 class UserService {
@@ -23,39 +22,46 @@ class UserService {
     return users;
   }
 
-  public async findUserById(userId: number): Promise<IUser> {
-    if (isEmpty(userId)) throw new HttpException(400, "You're not userId");
-
-    const findUser: IUser = await Users.findOne({ where: { id: userId } });
-    if (!findUser) throw new HttpException(409, "You're not user");
-
+  public async findUserByf_id(userf_id: string): Promise<IUser> {
+  try {
+    
+    if (isEmpty(userf_id)) throw new HttpException(400, "You're not userf_id");
+    
+    const findUser: IUser = await Users.findOne({ where: { f_id: userf_id } });
+    
     return findUser;
+  } catch (error) {
+    
   }
-  public async findBestUserByTrophies(userId: number): Promise<IUser> {
-    const userTrophies = (await this.findUserById(userId)).trophies;
-    if (isEmpty(userId)) throw new HttpException(400, "You're not userId");
+  }
+  public async findBestUserByTrophies(userf_id: string): Promise<IUser> {
+    const userTrophies = (await this.findUserByf_id(userf_id)).trophies;
+    if (isEmpty(userf_id)) throw new HttpException(400, "You're not userf_id");
     const findUser: IUser = await Users.createQueryBuilder("Users")
-      .where("Users.id != :userId", { userId })
+      .where("Users.f_id != :userf_id", { userf_id })
       .orderBy("ABS(Users.trophies - :trophies)", "ASC")
       .setParameter("trophies", userTrophies)
 
       .getOne();
-    if (!userId) throw new HttpException(409, "You're not user");
+    if (!userf_id) throw new HttpException(409, "You're not user");
 
     return findUser;
   }
 
   public async createUser(userData: IUser): Promise<IUser> {
-    const findUser = this.findUserById(userData.id);
-
+    const defaultLifeCount = 3;
+    const findUser = await this.findUserByf_id(userData.f_id);
+    userData.lives = defaultLifeCount;
+    userData.last_sign_in = new Date()
+    userData.first_sign_in = new Date()
+    userData.trophies = 0;
     if(isEmpty(findUser)){
-      throw new HttpException(400, "You're already User");
-
-    }else{
-      if (isEmpty(userData)) throw new HttpException(400, "You're not userData");
-      
       const createUserData: IUser = await Users.create({ ...userData }).save();
       return createUserData;
+
+    }else{
+      throw new HttpException(400, "You're not userData");
+      
     }
 
   }
