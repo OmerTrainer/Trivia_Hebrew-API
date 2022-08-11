@@ -78,7 +78,7 @@ class UsersController {
     try {
       const user_fid = req.body.f_id;
       const userData: CreateUserDto = req.body;
-      const updateUserData: IUser = await this.userService.updateOnlineStatues(user_fid, userData);
+      const updateUserData: IUser = await this.userService.lookingForGame(user_fid, userData);
 
       res.status(HttpStatusCode.OK).json({ data: updateUserData, message: 'isOnline' });
     } catch (error) {
