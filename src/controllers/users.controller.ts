@@ -85,6 +85,17 @@ class UsersController {
       next(error);
     }
   };
+  public stoplookingForGame = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
+    try {
+      const user_fid = req.body.f_id;
+      const userData: CreateUserDto = req.body;
+      const updateUserData: IUser = await this.userService.stoplookingForGame(user_fid, userData);
+
+      res.status(HttpStatusCode.OK).json({ data: updateUserData, message: 'isOnline' });
+    } catch (error) {
+      next(error);
+    }
+  };
 
   public deleteUser = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
     try {

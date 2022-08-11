@@ -114,6 +114,20 @@ class UserService {
     const updateUser: IUser = await Users.findOne({ where: { f_id: userfid } });
     return updateUser; 
   }
+  public async stoplookingForGame(
+    userfid:string,
+    userData: CreateUserDto
+  ): Promise<IUser> {
+    if (isEmpty(userData)) throw new HttpException(400, "You're not userData");
+
+    const findUser: IUser = await Users.findOne({ where: { f_id: userfid } });
+    if (isEmpty(findUser)) throw new HttpException(409, "You're not user");
+    findUser.searchingForGame = false
+    await Users.update(findUser.id, { ...findUser});
+    
+    const updateUser: IUser = await Users.findOne({ where: { f_id: userfid } });
+    return updateUser; 
+  }
   public async deleteUser(userId: number): Promise<IUser> {
     if (isEmpty(userId)) throw new HttpException(400, "You're not userId");
 
