@@ -27,6 +27,8 @@ export class Users extends BaseEntity implements IUser {
   name: string;
   
   @Column()
+  isOnline: boolean;
+  @Column()
   trophies: number;
 
   @Column()

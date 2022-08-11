@@ -6,6 +6,7 @@ const users = [
         lives:3,
         email:'ывафыва',
         last_sign_in: new Date(),
+        isOnline:false,
         first_sign_in: new Date(),
     },
     {
@@ -15,6 +16,7 @@ const users = [
         lives:3,
         email:'ываыва',
         last_sign_in: new Date(),
+        isOnline:false,
         first_sign_in: new Date(),
     },
     {
@@ -24,6 +26,7 @@ const users = [
         lives:3,
         email:'sdfsadfs',
         last_sign_in: new Date(),
+        isOnline:false,
         first_sign_in: new Date(),
     },
     {
@@ -33,6 +36,7 @@ const users = [
         lives:3,
         email:'sdafsdfsdf',
         last_sign_in: new Date(),
+        isOnline:false,
         first_sign_in: new Date(),
     },
     {
@@ -42,6 +46,7 @@ const users = [
         lives:3,
         email:'sdfsdfsdfa',
         last_sign_in: new Date(),
+        isOnline:false,
         first_sign_in: new Date(),
     },
    

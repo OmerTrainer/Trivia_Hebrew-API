@@ -18,6 +18,7 @@ const insertUsers = async () => {
     usersInstance.trophies = user.trophies;
     usersInstance.lives = user.lives;
     usersInstance.email = user.email;
+    usersInstance.isOnline = user.isOnline;
     usersInstance.f_id = user.f_id;
     usersInstance.first_sign_in = user.first_sign_in;
     usersInstance.last_sign_in = user.last_sign_in;

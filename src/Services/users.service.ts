@@ -52,6 +52,7 @@ class UserService {
     const defaultLifeCount = 3;
     const findUser = await this.findUserByf_id(userData.f_id);
     userData.lives = defaultLifeCount;
+    userData.isOnline = true
     userData.last_sign_in = new Date()
     userData.first_sign_in = new Date()
     userData.trophies = 0;
@@ -60,21 +61,14 @@ class UserService {
       return createUserData;
 
     }else{
-      throw new HttpException(400, "You're not userData");
+      
+      throw new HttpException(400, "created");
       
     }
 
   }
 
-  public async createUsers(usersData: CreateUserDto[]): Promise<IUser[]> {
-    if (isEmpty(usersData))
-      throw new HttpException(400, "You're not usersData");
 
-    const usersRepository = getRepository(Users);
-    const createUsersData: IUser[] = await usersRepository.save(usersData);
-
-    return createUsersData;
-  }
 
   public async updateUser(
     userId: number,
@@ -89,6 +83,21 @@ class UserService {
 
     const updateUser: IUser = await Users.findOne({ where: { id: userId } });
     return updateUser;
+  }
+
+  public async updateOnlineStatues(
+    userfid:string,
+    userData: CreateUserDto
+  ): Promise<IUser> {
+    if (isEmpty(userData)) throw new HttpException(400, "You're not userData");
+
+    const findUser: IUser = await Users.findOne({ where: { f_id: userfid } });
+    if (!findUser) throw new HttpException(409, "You're not user");
+    findUser.isOnline = true
+    await Users.update(findUser.id, { ...findUser});
+    
+    const updateUser: IUser = await Users.findOne({ where: { f_id: userfid } });
+    return updateUser; 
   }
 
   public async deleteUser(userId: number): Promise<IUser> {

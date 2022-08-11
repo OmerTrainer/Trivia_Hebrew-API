@@ -17,6 +17,7 @@ class UsersRoute implements Routes {
     // this.router.get(``, this.usersController.getUsers);
     // this.router.get(`/:id(\\d+)`, this.usersController.getUserById);
     this.router.post(`/create`, this.usersController.createUser);
+    this.router.put(`/update-statues`, this.usersController.updateOnlineStatues);
     this.router.get(`/AllUsers`, this.usersController.getUsers);
     this.router.get(`/:id(\\d+)`, this.usersController.getUserById);
     this.router.get(`/best-match/:id(\\d+)`, this.usersController.getBestUserByTrophies);
