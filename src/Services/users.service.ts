@@ -53,6 +53,7 @@ class UserService {
     const findUser = await this.findUserByf_id(userData.f_id);
     userData.lives = defaultLifeCount;
     userData.isOnline = true
+    userData.searchingForGame = false
     userData.last_sign_in = new Date()
     userData.first_sign_in = new Date()
     userData.trophies = 0;

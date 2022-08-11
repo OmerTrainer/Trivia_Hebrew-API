@@ -34,6 +34,9 @@ export class Users extends BaseEntity implements IUser {
   @Column()
   lives: number;
       
+  @Column()
+  searchingForGame: boolean;
+      
 
   @CreateDateColumn()
   last_sign_in: Date;

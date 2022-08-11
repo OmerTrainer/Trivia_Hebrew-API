@@ -50,7 +50,7 @@ class App {
   private connectToDatabase() {
     createConnection(dbConnection).then(async () => {
     //   // await insertInitProdData();
-     await insertMockData();
+    //  // await insertMockData();
     });
   }
 

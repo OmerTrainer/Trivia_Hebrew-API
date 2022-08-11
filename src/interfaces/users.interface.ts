@@ -6,6 +6,7 @@ export interface IUser {
   email: string;
   trophies: number;
   isOnline: boolean;
+  searchingForGame: boolean;
   last_sign_in: Date;
   first_sign_in: Date;
   lives: number;
