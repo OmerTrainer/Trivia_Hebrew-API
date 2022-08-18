@@ -1,0 +1,224 @@
+2022-08-07 10:41:04 info: =================================
+2022-08-07 10:41:04 info: ======= ENV: development =======
+2022-08-07 10:41:04 info: 🚀 App listening on the port 3000
+2022-08-07 10:41:04 info: =================================
+2022-08-07 10:43:06 info: =================================
+2022-08-07 10:43:06 info: ======= ENV: development =======
+2022-08-07 10:43:06 info: 🚀 App listening on the port 3000
+2022-08-07 10:43:06 info: =================================
+2022-08-07 10:49:49 info: =================================
+2022-08-07 10:49:49 info: ======= ENV: development =======
+2022-08-07 10:49:49 info: 🚀 App listening on the port 3000
+2022-08-07 10:49:49 info: =================================
+2022-08-07 10:53:16 info: =================================
+2022-08-07 10:53:16 info: ======= ENV: development =======
+2022-08-07 10:53:16 info: 🚀 App listening on the port 3000
+2022-08-07 10:53:16 info: =================================
+2022-08-07 10:53:46 info: =================================
+2022-08-07 10:53:46 info: ======= ENV: development =======
+2022-08-07 10:53:46 info: 🚀 App listening on the port 3000
+2022-08-07 10:53:46 info: =================================
+2022-08-07 10:54:02 info: =================================
+2022-08-07 10:54:02 info: ======= ENV: development =======
+2022-08-07 10:54:02 info: 🚀 App listening on the port 3000
+2022-08-07 10:54:02 info: =================================
+2022-08-07 10:54:12 info: =================================
+2022-08-07 10:54:12 info: ======= ENV: development =======
+2022-08-07 10:54:12 info: 🚀 App listening on the port 3000
+2022-08-07 10:54:12 info: =================================
+2022-08-07 10:57:16 info: =================================
+2022-08-07 10:57:16 info: ======= ENV: development =======
+2022-08-07 10:57:16 info: 🚀 App listening on the port 3000
+2022-08-07 10:57:16 info: =================================
+2022-08-07 10:57:49 info: =================================
+2022-08-07 10:57:49 info: ======= ENV: development =======
+2022-08-07 10:57:49 info: 🚀 App listening on the port 3000
+2022-08-07 10:57:49 info: =================================
+2022-08-07 10:59:20 info: [0mGET /api/clients/jou] [33m404[0m 3.953 ms - 155[0m
+2022-08-07 10:59:30 info: [0mGET /users/create [33m404[0m 1.314 ms - 151[0m
+2022-08-07 10:59:41 info: [0mGET /users/AllUsers [33m404[0m 0.666 ms - 153[0m
+2022-08-07 11:00:02 info: =================================
+2022-08-07 11:00:02 info: ======= ENV: development =======
+2022-08-07 11:00:02 info: 🚀 App listening on the port 3000
+2022-08-07 11:00:02 info: =================================
+2022-08-07 11:00:03 info: [0mGET /users/AllUsers [33m404[0m 3.959 ms - 153[0m
+2022-08-07 11:00:04 info: [0mGET /users/AllUsers [33m404[0m 1.258 ms - 153[0m
+2022-08-07 11:00:29 info: [0mGET /users/AllUsers [33m404[0m 0.818 ms - 153[0m
+2022-08-07 11:00:35 info: [0mGET /users/ [33m404[0m 0.498 ms - 145[0m
+2022-08-07 11:00:38 info: [0mGET /users/ [33m404[0m 0.562 ms - 145[0m
+2022-08-07 11:00:41 info: [0mGET /users/AllUsers [33m404[0m 0.676 ms - 153[0m
+2022-08-07 11:00:57 info: [0mGET /users/AllUsers [33m404[0m 0.429 ms - 153[0m
+2022-08-07 11:01:01 info: [0mGET /users/AllUsers [33m404[0m 0.447 ms - 153[0m
+2022-08-07 11:01:16 info: [0mGET /api/create_client [33m404[0m 0.770 ms - 156[0m
+2022-08-07 11:02:01 info: =================================
+2022-08-07 11:02:01 info: ======= ENV: development =======
+2022-08-07 11:02:01 info: 🚀 App listening on the port 3000
+2022-08-07 11:02:01 info: =================================
+2022-08-07 11:02:06 info: [0mGET /users/AllUsers [33m404[0m 6.368 ms - 153[0m
+2022-08-07 11:02:07 info: [0mGET /users/AllUsers [33m404[0m 1.542 ms - 153[0m
+2022-08-07 11:02:11 info: [0mGET /users/AllUsers [33m404[0m 1.057 ms - 153[0m
+2022-08-07 11:02:13 info: [0mGET /users/AllUsers [33m404[0m 3.632 ms - 153[0m
+2022-08-07 11:02:33 info: =================================
+2022-08-07 11:02:33 info: ======= ENV: development =======
+2022-08-07 11:02:33 info: 🚀 App listening on the port 3000
+2022-08-07 11:02:33 info: =================================
+2022-08-07 11:04:47 info: =================================
+2022-08-07 11:04:47 info: ======= ENV: development =======
+2022-08-07 11:04:47 info: 🚀 App listening on the port 3000
+2022-08-07 11:04:47 info: =================================
+2022-08-07 11:04:55 info: [0mGET /users/AllUsers [32m200[0m 5620.092 ms - 31[0m
+2022-08-07 11:05:14 info: [0mGET /users/create [33m404[0m 3.193 ms - 151[0m
+2022-08-07 11:05:26 info: [0mGET /users/AllUsers [32m200[0m 25.887 ms - 31[0m
+2022-08-07 11:05:31 info: [0mGET /users/create [33m404[0m 1.123 ms - 151[0m
+2022-08-07 11:09:51 info: =================================
+2022-08-07 11:09:51 info: ======= ENV: development =======
+2022-08-07 11:09:51 info: 🚀 App listening on the port 3000
+2022-08-07 11:09:51 info: =================================
+2022-08-07 11:09:54 info: [0mGET /users/create [33m404[0m 4.429 ms - 151[0m
+2022-08-07 11:09:58 info: [0mGET /users/AllUsers [32m200[0m 12.613 ms - 164[0m
+2022-08-07 11:14:39 info: [0mGET /users/AllUsers [32m200[0m 26.837 ms - 164[0m
+2022-08-07 13:29:54 info: [0mGET /users/AllUsers [32m200[0m 28.168 ms - 164[0m
+2022-08-07 13:30:49 info: [0mGET /users/AllUsers [32m200[0m 26.565 ms - 164[0m
+2022-08-07 13:41:08 info: =================================
+2022-08-07 13:41:08 info: ======= ENV: development =======
+2022-08-07 13:41:08 info: 🚀 App listening on the port 3000
+2022-08-07 13:41:08 info: =================================
+2022-08-07 13:41:15 info: [0mGET /users/idd [33m404[0m 4.272 ms - 148[0m
+2022-08-07 13:41:16 error: [GET] /users/3 >> StatusCode:: 409, Message:: You're not user
+2022-08-07 13:41:16 info: [0mGET /users/3 [33m409[0m 18.947 ms - 29[0m
+2022-08-07 13:41:17 info: [0mGET /users/2 [32m200[0m 6.054 ms - 105[0m
+2022-08-07 13:41:18 info: [0mGET /users/1 [32m200[0m 4.605 ms - 85[0m
+2022-08-07 13:41:19 info: [0mGET /users/2 [32m200[0m 4.766 ms - 105[0m
+2022-08-07 13:41:20 info: [0mGET /users/1 [32m200[0m 4.188 ms - 85[0m
+2022-08-07 13:41:21 info: [0mGET /users/ [33m404[0m 1.123 ms - 145[0m
+2022-08-07 13:41:22 info: [0mGET /users/2 [32m200[0m 10.755 ms - 105[0m
+2022-08-07 13:41:23 info: [0mGET /users/1 [32m200[0m 5.983 ms - 85[0m
+2022-08-07 13:41:25 info: [0mGET /users/2 [32m200[0m 4.255 ms - 105[0m
+2022-08-07 13:41:26 info: [0mGET /users/1 [32m200[0m 6.127 ms - 85[0m
+2022-08-07 13:45:54 info: =================================
+2022-08-07 13:45:54 info: ======= ENV: development =======
+2022-08-07 13:45:54 info: 🚀 App listening on the port 3000
+2022-08-07 13:45:54 info: =================================
+2022-08-07 13:46:09 info: =================================
+2022-08-07 13:46:09 info: ======= ENV: development =======
+2022-08-07 13:46:09 info: 🚀 App listening on the port 3000
+2022-08-07 13:46:09 info: =================================
+2022-08-07 13:46:29 error: [GET] /users/best-match/2 >> StatusCode:: 500, Message:: this.userService.findBestUserByTrophies is not a function
+2022-08-07 13:46:29 info: [0mGET /users/best-match/2 [31m500[0m 6.346 ms - 71[0m
+2022-08-07 13:46:31 error: [GET] /users/best-match/1 >> StatusCode:: 500, Message:: this.userService.findBestUserByTrophies is not a function
+2022-08-07 13:46:31 info: [0mGET /users/best-match/1 [31m500[0m 3.045 ms - 71[0m
+2022-08-07 13:46:49 info: =================================
+2022-08-07 13:46:49 info: ======= ENV: development =======
+2022-08-07 13:46:49 info: 🚀 App listening on the port 3000
+2022-08-07 13:46:49 info: =================================
+2022-08-07 13:46:52 info: [0mGET /users/best-match/1 [32m200[0m 16.390 ms - 85[0m
+2022-08-07 13:46:54 info: [0mGET /users/best-match/1 [32m200[0m 4.504 ms - 85[0m
+2022-08-07 13:47:21 info: =================================
+2022-08-07 13:47:21 info: ======= ENV: development =======
+2022-08-07 13:47:21 info: 🚀 App listening on the port 3000
+2022-08-07 13:47:21 info: =================================
+2022-08-07 13:47:27 info: =================================
+2022-08-07 13:47:27 info: ======= ENV: development =======
+2022-08-07 13:47:27 info: 🚀 App listening on the port 3000
+2022-08-07 13:47:27 info: =================================
+2022-08-07 13:47:31 info: [0mGET /users/best-match/1 [32m200[0m 15.752 ms - 85[0m
+2022-08-07 13:47:32 info: [0mGET /users/best-match/1 [32m200[0m 4.418 ms - 85[0m
+2022-08-07 13:47:38 info: =================================
+2022-08-07 13:47:38 info: ======= ENV: development =======
+2022-08-07 13:47:38 info: 🚀 App listening on the port 3000
+2022-08-07 13:47:38 info: =================================
+2022-08-07 13:47:40 info: [0mGET /users/best-match/1 [32m200[0m 15.998 ms - 85[0m
+2022-08-07 13:47:42 info: [0mGET /users/best-match/2 [32m200[0m 4.603 ms - 33[0m
+2022-08-07 13:47:44 info: [0mGET /users/best-match/1 [32m200[0m 6.017 ms - 85[0m
+2022-08-07 13:47:45 info: [0mGET /users/best-match/3 [32m200[0m 7.992 ms - 33[0m
+2022-08-07 13:47:46 info: [0mGET /users/best-match/1 [32m200[0m 4.881 ms - 85[0m
+2022-08-07 14:16:41 info: =================================
+2022-08-07 14:16:41 info: ======= ENV: development =======
+2022-08-07 14:16:41 info: 🚀 App listening on the port 3000
+2022-08-07 14:16:41 info: =================================
+2022-08-07 14:16:43 error: [GET] /users/best-match/1 >> StatusCode:: 500, Message:: You must provide selection conditions in order to find a single row.
+2022-08-07 14:16:43 info: [0mGET /users/best-match/1 [31m500[0m 12.716 ms - 82[0m
+2022-08-07 14:16:44 error: [GET] /users/best-match/1 >> StatusCode:: 500, Message:: You must provide selection conditions in order to find a single row.
+2022-08-07 14:16:44 info: [0mGET /users/best-match/1 [31m500[0m 3.321 ms - 82[0m
+2022-08-07 14:16:45 error: [GET] /users/best-match/1 >> StatusCode:: 500, Message:: You must provide selection conditions in order to find a single row.
+2022-08-07 14:16:45 info: [0mGET /users/best-match/1 [31m500[0m 2.599 ms - 82[0m
+2022-08-07 14:20:03 info: =================================
+2022-08-07 14:20:03 info: ======= ENV: development =======
+2022-08-07 14:20:03 info: 🚀 App listening on the port 3000
+2022-08-07 14:20:03 info: =================================
+2022-08-07 14:21:51 info: =================================
+2022-08-07 14:21:51 info: ======= ENV: development =======
+2022-08-07 14:21:51 info: 🚀 App listening on the port 3000
+2022-08-07 14:21:51 info: =================================
+2022-08-07 14:21:52 info: [0mGET /users/best-match/1 [32m200[0m 17.898 ms - 85[0m
+2022-08-07 14:21:59 info: [0mGET /users/best-match/2 [32m200[0m 5.994 ms - 105[0m
+2022-08-07 14:22:00 info: [0mGET /users/best-match/1 [32m200[0m 6.394 ms - 85[0m
+2022-08-07 14:22:01 info: [0mGET /users/best-match/2 [32m200[0m 9.497 ms - 105[0m
+2022-08-07 14:34:26 info: =================================
+2022-08-07 14:34:26 info: ======= ENV: development =======
+2022-08-07 14:34:26 info: 🚀 App listening on the port 3000
+2022-08-07 14:34:26 info: =================================
+2022-08-07 14:34:31 info: [0mGET /users/best-match/2 [32m200[0m 18.237 ms - 31[0m
+2022-08-07 14:34:32 info: [0mGET /users/best-match/2 [32m200[0m 5.908 ms - 31[0m
+2022-08-07 14:34:35 info: [0mGET /users/best-match/1 [32m200[0m 7.007 ms - 31[0m
+2022-08-07 14:35:14 info: [0mGET /users/best-match/1 [32m200[0m 28.660 ms - 184[0m
+2022-08-07 14:35:43 info: =================================
+2022-08-07 14:35:43 info: ======= ENV: development =======
+2022-08-07 14:35:43 info: 🚀 App listening on the port 3000
+2022-08-07 14:35:43 info: =================================
+2022-08-07 14:35:45 info: [0mGET /users/best-match/1 [32m200[0m 19.070 ms - 31[0m
+2022-08-07 14:35:47 info: [0mGET /users/best-match/1 [32m200[0m 5.854 ms - 31[0m
+2022-08-07 14:35:47 info: [0mGET /users/best-match/1 [32m200[0m 8.175 ms - 31[0m
+2022-08-07 14:35:48 info: [0mGET /users/best-match/1 [32m200[0m 5.396 ms - 31[0m
+2022-08-07 14:35:49 info: [0mGET /users/best-match/1 [32m200[0m 5.830 ms - 31[0m
+2022-08-07 14:36:11 info: =================================
+2022-08-07 14:36:11 info: ======= ENV: development =======
+2022-08-07 14:36:11 info: 🚀 App listening on the port 3000
+2022-08-07 14:36:11 info: =================================
+2022-08-07 14:36:17 info: [0mGET /users/best-match/1 [32m200[0m 18.508 ms - 244[0m
+2022-08-07 14:53:05 info: [0mGET /users/best-match/3 [32m200[0m 29.409 ms - 264[0m
+2022-08-07 15:04:53 info: =================================
+2022-08-07 15:04:53 info: ======= ENV: development =======
+2022-08-07 15:04:53 info: 🚀 App listening on the port 3000
+2022-08-07 15:04:53 info: =================================
+2022-08-07 15:05:09 info: [0mGET /users/best-match/3 [32m200[0m 39.946 ms - 106[0m
+2022-08-07 15:05:16 info: [0mGET /users/best-match/2 [32m200[0m 7.266 ms - 106[0m
+2022-08-07 15:05:20 info: [0mGET /users/best-match/1 [32m200[0m 6.538 ms - 106[0m
+2022-08-07 15:05:21 info: [0mGET /users/best-match/2 [32m200[0m 10.536 ms - 106[0m
+2022-08-07 15:17:47 info: =================================
+2022-08-07 15:17:47 info: ======= ENV: development =======
+2022-08-07 15:17:47 info: 🚀 App listening on the port 3000
+2022-08-07 15:17:47 info: =================================
+2022-08-07 15:17:50 info: [0mGET /users/best-match/2 [32m200[0m 18.764 ms - 106[0m
+2022-08-07 15:17:58 info: [0mGET /users/best-match/1 [32m200[0m 5.963 ms - 106[0m
+2022-08-07 15:17:59 info: [0mGET /users/best-match/2 [32m200[0m 9.272 ms - 106[0m
+2022-08-07 15:18:00 info: [0mGET /users/best-match/3 [32m200[0m 5.782 ms - 106[0m
+2022-08-07 15:18:01 error: [GET] /users/best-match/5 >> StatusCode:: 409, Message:: You're not user
+2022-08-07 15:18:01 info: [0mGET /users/best-match/5 [33m409[0m 5.906 ms - 29[0m
+2022-08-07 15:18:02 info: [0mGET /users/best-match/4 [32m200[0m 6.754 ms - 86[0m
+2022-08-07 15:18:04 info: [0mGET /users/best-match/3 [32m200[0m 5.954 ms - 106[0m
+2022-08-07 15:18:05 info: [0mGET /users/best-match/4 [32m200[0m 6.632 ms - 86[0m
+2022-08-07 15:18:15 info: =================================
+2022-08-07 15:18:15 info: ======= ENV: development =======
+2022-08-07 15:18:15 info: 🚀 App listening on the port 3000
+2022-08-07 15:18:15 info: =================================
+2022-08-07 15:18:23 info: [0mGET /users/best-match/4 [32m200[0m 20.050 ms - 86[0m
+2022-08-07 15:18:24 info: [0mGET /users/best-match/4 [32m200[0m 6.717 ms - 86[0m
+2022-08-07 15:18:25 info: [0mGET /users/best-match/4 [32m200[0m 9.320 ms - 86[0m
+2022-08-07 15:18:29 info: [0mGET /users/best-match/2 [32m200[0m 6.684 ms - 106[0m
+2022-08-07 15:18:30 info: [0mGET /users/best-match/4 [32m200[0m 6.882 ms - 86[0m
+2022-08-07 15:18:31 info: [0mGET /users/best-match/2 [32m200[0m 16.742 ms - 106[0m
+2022-08-07 15:18:32 info: [0mGET /users/best-match/4 [32m200[0m 5.421 ms - 86[0m
+2022-08-07 15:21:59 info: =================================
+2022-08-07 15:21:59 info: ======= ENV: development =======
+2022-08-07 15:21:59 info: 🚀 App listening on the port 3000
+2022-08-07 15:21:59 info: =================================
+2022-08-07 15:22:06 info: [0mGET /users/best-match/4 [32m200[0m 18.081 ms - 106[0m
+2022-08-07 15:22:10 info: [0mGET /users/best-match/2 [32m200[0m 14.077 ms - 106[0m
+2022-08-07 15:22:11 info: [0mGET /users/best-match/1 [32m200[0m 6.308 ms - 106[0m
+2022-08-07 15:22:11 info: [0mGET /users/best-match/3 [32m200[0m 6.977 ms - 106[0m
+2022-08-07 15:22:12 info: [0mGET /users/best-match/1 [32m200[0m 7.306 ms - 106[0m
+2022-08-07 15:36:26 info: =================================
+2022-08-07 15:36:26 info: ======= ENV: development =======
+2022-08-07 15:36:26 info: 🚀 App listening on the port 3000
+2022-08-07 15:36:26 info: =================================

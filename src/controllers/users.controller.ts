@@ -19,8 +19,20 @@ class UsersController {
 
   public getUserById = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
     try {
-      const userId = Number(req.params.id);
-      const findOneUserData: IUser = await this.userService.findUserById(userId);
+      
+      const userf_id = String(req.params.f_id);
+      const findOneUserData: IUser = await this.userService.findUserByf_id(userf_id);
+
+      res.status(HttpStatusCode.OK).json({ data: findOneUserData, message: 'findOne' });
+    } catch (error) {
+      next(error);
+    }
+  };
+  public getBestUserByTrophies = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
+    try {
+
+      const userf_id = String(req.params.f_id);
+      const findOneUserData: IUser = await this.userService.findBestUserByTrophies(userf_id);
 
       res.status(HttpStatusCode.OK).json({ data: findOneUserData, message: 'findOne' });
     } catch (error) {
@@ -30,7 +42,8 @@ class UsersController {
 
   public createUser = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
     try {
-      const userData: CreateUserDto = req.body;
+      const userData: IUser = req.body;
+      
       const createUserData: IUser = await this.userService.createUser(userData);
 
       res.status(HttpStatusCode.CREATED).json({ data: createUserData, message: 'created' });
@@ -41,11 +54,44 @@ class UsersController {
 
   public updateUser = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
     try {
-      const userId = Number(req.params.id);
+      const userf_id = Number(req.params.f_id);
       const userData: CreateUserDto = req.body;
-      const updateUserData: IUser = await this.userService.updateUser(userId, userData);
+      const updateUserData: IUser = await this.userService.updateUser(userf_id, userData);
 
       res.status(HttpStatusCode.OK).json({ data: updateUserData, message: 'updated' });
+    } catch (error) {
+      next(error);
+    }
+  };
+  public updateOnlineStatues = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
+    try {
+      const user_fid = req.body.f_id;
+      const userData: CreateUserDto = req.body;
+      const updateUserData: IUser = await this.userService.updateOnlineStatues(user_fid, userData);
+
+      res.status(HttpStatusCode.OK).json({ data: updateUserData, message: 'isOnline' });
+    } catch (error) {
+      next(error);
+    }
+  };
+  public lookingForGame = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
+    try {
+      const user_fid = req.body.f_id;
+      const userData: CreateUserDto = req.body;
+      const updateUserData: IUser = await this.userService.lookingForGame(user_fid, userData);
+
+      res.status(HttpStatusCode.OK).json({ data: updateUserData, message: 'isOnline' });
+    } catch (error) {
+      next(error);
+    }
+  };
+  public stoplookingForGame = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
+    try {
+      const user_fid = req.body.f_id;
+      const userData: CreateUserDto = req.body;
+      const updateUserData: IUser = await this.userService.stoplookingForGame(user_fid, userData);
+
+      res.status(HttpStatusCode.OK).json({ data: updateUserData, message: 'isOnline' });
     } catch (error) {
       next(error);
     }
@@ -53,8 +99,8 @@ class UsersController {
 
   public deleteUser = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
     try {
-      const userId = Number(req.params.id);
-      const deleteUserData: IUser = await this.userService.deleteUser(userId);
+      const userf_id = Number(req.params.f_id);
+      const deleteUserData: IUser = await this.userService.deleteUser(userf_id);
 
       res.status(HttpStatusCode.OK).json({ data: deleteUserData, message: 'deleted' });
     } catch (error) {

@@ -1,23 +1,24 @@
 {
-  "env": "development",
-  "dbConfig": {
-    "host": "localhost",
-    "user": "postgres",
-    "password": "Aa123456",
-    "database": "Trivia_Hebrew",
-    "logging": false,
-    "ssl": false
-  },
-  "secretKey": "secretKey",
-  "log": {
-    "format": "dev",
-    "dir": "../logs"
-  },
-  "cors": {
-    "origin": true,
-    "credentials": true
-  },
-  "ssl": {
-    "rejectUnauthorized": false
-  }
+    "env": "development",
+    "dbConfig": {
+        "host": "localhost",
+        "user": "postgres",
+        "port": 5432,
+        "password": "Aa123456",
+        "database": "Trivia_Hebrew",
+        "logging": false,
+        "ssl": false
+    },
+    "secretKey": "secretKey",
+    "log": {
+        "format": "dev",
+        "dir": "../logs"
+    },
+    "cors": {
+        "origin": true,
+        "credentials": true
+    },
+    "ssl": {
+        "rejectUnauthorized": false
+    }
 }

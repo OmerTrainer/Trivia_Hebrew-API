@@ -1,0 +1,109 @@
+2022-08-07 10:38:09 error: uncaughtException: Cannot find module 'envalid'
+Require stack:
+- C:\Users\DESKTOP-TOM\Desktop\Trivia_Hebrew-API\src\utils\validateEnv.ts
+- C:\Users\DESKTOP-TOM\Desktop\Trivia_Hebrew-API\src\server.ts
+Error: Cannot find module 'envalid'
+Require stack:
+- C:\Users\DESKTOP-TOM\Desktop\Trivia_Hebrew-API\src\utils\validateEnv.ts
+- C:\Users\DESKTOP-TOM\Desktop\Trivia_Hebrew-API\src\server.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (C:\Users\DESKTOP-TOM\Desktop\Trivia_Hebrew-API\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (C:\Users\DESKTOP-TOM\Desktop\Trivia_Hebrew-API\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\DESKTOP-TOM\Desktop\Trivia_Hebrew-API\src\utils\validateEnv.ts:1:1)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (C:\Users\DESKTOP-TOM\Desktop\Trivia_Hebrew-API\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+2022-08-07 10:41:04 error: uncaughtException: password authentication failed for user "postgres"
+error: password authentication failed for user "postgres"
+    at Parser.parseErrorMessage (C:\Users\DESKTOP-TOM\Desktop\Trivia_Hebrew-API\node_modules\pg-protocol\src\parser.ts:369:69)
+    at Parser.handlePacket (C:\Users\DESKTOP-TOM\Desktop\Trivia_Hebrew-API\node_modules\pg-protocol\src\parser.ts:188:21)
+    at Parser.parse (C:\Users\DESKTOP-TOM\Desktop\Trivia_Hebrew-API\node_modules\pg-protocol\src\parser.ts:103:30)
+    at Socket.<anonymous> (C:\Users\DESKTOP-TOM\Desktop\Trivia_Hebrew-API\node_modules\pg-protocol\src\index.ts:7:48)
+    at Socket.emit (node:events:390:28)
+    at Socket.emit (node:domain:475:12)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:199:23)
+2022-08-07 10:43:06 error: uncaughtException: password authentication failed for user "postgres"
+error: password authentication failed for user "postgres"
+    at Parser.parseErrorMessage (C:\Users\DESKTOP-TOM\Desktop\Trivia_Hebrew-API\node_modules\pg-protocol\src\parser.ts:369:69)
+    at Parser.handlePacket (C:\Users\DESKTOP-TOM\Desktop\Trivia_Hebrew-API\node_modules\pg-protocol\src\parser.ts:188:21)
+    at Parser.parse (C:\Users\DESKTOP-TOM\Desktop\Trivia_Hebrew-API\node_modules\pg-protocol\src\parser.ts:103:30)
+    at Socket.<anonymous> (C:\Users\DESKTOP-TOM\Desktop\Trivia_Hebrew-API\node_modules\pg-protocol\src\index.ts:7:48)
+    at Socket.emit (node:events:390:28)
+    at Socket.emit (node:domain:475:12)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:199:23)
+2022-08-07 10:49:49 error: uncaughtException: password authentication failed for user "postgres"
+error: password authentication failed for user "postgres"
+    at Parser.parseErrorMessage (C:\Users\DESKTOP-TOM\Desktop\Trivia_Hebrew-API\node_modules\pg-protocol\src\parser.ts:369:69)
+    at Parser.handlePacket (C:\Users\DESKTOP-TOM\Desktop\Trivia_Hebrew-API\node_modules\pg-protocol\src\parser.ts:188:21)
+    at Parser.parse (C:\Users\DESKTOP-TOM\Desktop\Trivia_Hebrew-API\node_modules\pg-protocol\src\parser.ts:103:30)
+    at Socket.<anonymous> (C:\Users\DESKTOP-TOM\Desktop\Trivia_Hebrew-API\node_modules\pg-protocol\src\index.ts:7:48)
+    at Socket.emit (node:events:390:28)
+    at Socket.emit (node:domain:475:12)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:199:23)
+2022-08-07 10:53:16 error: uncaughtException: database "Trivia_Hebrew" does not exist
+error: database "Trivia_Hebrew" does not exist
+    at Parser.parseErrorMessage (C:\Users\DESKTOP-TOM\Desktop\Trivia_Hebrew-API\node_modules\pg-protocol\src\parser.ts:369:69)
+    at Parser.handlePacket (C:\Users\DESKTOP-TOM\Desktop\Trivia_Hebrew-API\node_modules\pg-protocol\src\parser.ts:188:21)
+    at Parser.parse (C:\Users\DESKTOP-TOM\Desktop\Trivia_Hebrew-API\node_modules\pg-protocol\src\parser.ts:103:30)
+    at Socket.<anonymous> (C:\Users\DESKTOP-TOM\Desktop\Trivia_Hebrew-API\node_modules\pg-protocol\src\index.ts:7:48)
+    at Socket.emit (node:events:390:28)
+    at Socket.emit (node:domain:475:12)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:199:23)
+2022-08-07 10:53:46 error: uncaughtException: database "Trivia_Hebrew" does not exist
+error: database "Trivia_Hebrew" does not exist
+    at Parser.parseErrorMessage (C:\Users\DESKTOP-TOM\Desktop\Trivia_Hebrew-API\node_modules\pg-protocol\src\parser.ts:369:69)
+    at Parser.handlePacket (C:\Users\DESKTOP-TOM\Desktop\Trivia_Hebrew-API\node_modules\pg-protocol\src\parser.ts:188:21)
+    at Parser.parse (C:\Users\DESKTOP-TOM\Desktop\Trivia_Hebrew-API\node_modules\pg-protocol\src\parser.ts:103:30)
+    at Socket.<anonymous> (C:\Users\DESKTOP-TOM\Desktop\Trivia_Hebrew-API\node_modules\pg-protocol\src\index.ts:7:48)
+    at Socket.emit (node:events:390:28)
+    at Socket.emit (node:domain:475:12)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:199:23)
+2022-08-07 10:54:02 error: uncaughtException: database "Trivia_Hebrew" does not exist
+error: database "Trivia_Hebrew" does not exist
+    at Parser.parseErrorMessage (C:\Users\DESKTOP-TOM\Desktop\Trivia_Hebrew-API\node_modules\pg-protocol\src\parser.ts:369:69)
+    at Parser.handlePacket (C:\Users\DESKTOP-TOM\Desktop\Trivia_Hebrew-API\node_modules\pg-protocol\src\parser.ts:188:21)
+    at Parser.parse (C:\Users\DESKTOP-TOM\Desktop\Trivia_Hebrew-API\node_modules\pg-protocol\src\parser.ts:103:30)
+    at Socket.<anonymous> (C:\Users\DESKTOP-TOM\Desktop\Trivia_Hebrew-API\node_modules\pg-protocol\src\index.ts:7:48)
+    at Socket.emit (node:events:390:28)
+    at Socket.emit (node:domain:475:12)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:199:23)
+2022-08-07 10:54:12 error: uncaughtException: database "Trivia_Hebrew" does not exist
+error: database "Trivia_Hebrew" does not exist
+    at Parser.parseErrorMessage (C:\Users\DESKTOP-TOM\Desktop\Trivia_Hebrew-API\node_modules\pg-protocol\src\parser.ts:369:69)
+    at Parser.handlePacket (C:\Users\DESKTOP-TOM\Desktop\Trivia_Hebrew-API\node_modules\pg-protocol\src\parser.ts:188:21)
+    at Parser.parse (C:\Users\DESKTOP-TOM\Desktop\Trivia_Hebrew-API\node_modules\pg-protocol\src\parser.ts:103:30)
+    at Socket.<anonymous> (C:\Users\DESKTOP-TOM\Desktop\Trivia_Hebrew-API\node_modules\pg-protocol\src\index.ts:7:48)
+    at Socket.emit (node:events:390:28)
+    at Socket.emit (node:domain:475:12)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:199:23)
+2022-08-07 13:41:16 error: [GET] /users/3 >> StatusCode:: 409, Message:: You're not user
+2022-08-07 13:46:29 error: [GET] /users/best-match/2 >> StatusCode:: 500, Message:: this.userService.findBestUserByTrophies is not a function
+2022-08-07 13:46:31 error: [GET] /users/best-match/1 >> StatusCode:: 500, Message:: this.userService.findBestUserByTrophies is not a function
+2022-08-07 14:16:43 error: [GET] /users/best-match/1 >> StatusCode:: 500, Message:: You must provide selection conditions in order to find a single row.
+2022-08-07 14:16:44 error: [GET] /users/best-match/1 >> StatusCode:: 500, Message:: You must provide selection conditions in order to find a single row.
+2022-08-07 14:16:45 error: [GET] /users/best-match/1 >> StatusCode:: 500, Message:: You must provide selection conditions in order to find a single row.
+2022-08-07 15:18:01 error: [GET] /users/best-match/5 >> StatusCode:: 409, Message:: You're not user

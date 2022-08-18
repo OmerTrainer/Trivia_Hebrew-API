@@ -2,6 +2,7 @@ import { IsNotEmpty } from 'class-validator';
 import { IUser } from '../interfaces/users.interface';
 
 import {
+  CreateDateColumn,
   BaseEntity,
   Entity,
   PrimaryGeneratedColumn,
@@ -17,12 +18,32 @@ export class Users extends BaseEntity implements IUser {
   id: number;
 
   @Column()
+  f_id:string;
+  @Column()
+  email:string;
+  @Column()
+  
   @IsNotEmpty()
   name: string;
   
+  @Column()
+  isOnline: boolean;
   @Column()
   trophies: number;
 
   @Column()
   lives: number;
+      
+  @Column()
+  searchingForGame: boolean;
+      
+
+  @CreateDateColumn()
+  last_sign_in: Date;
+
+  @CreateDateColumn()
+  first_sign_in: Date;
+
+
+  
 }
